@@ -1,0 +1,10 @@
+selector input[type=number]::-webkit-inner-spin-button, 
+selector input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+selector input[type=number] {
+    -moz-appearance: textfield;
+}
